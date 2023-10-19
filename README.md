@@ -3,17 +3,17 @@
 # Fomulário de cadastro de E-commerce
 ...
 
-## ⚙️ Processo de pesquisa
+## 🔎 Processo de pesquisa
 ...
 
-## Recursos adicionado no formulário
+## ⚙️ Recursos adicionado no formulário
 ...
 
-## Fontes consultadas
+## 🔗 Fontes consultadas
 ...
 
-## Pessoas que trabalhou nesse projeto
+## 👦 Pessoas que trabalhou nesse projeto
 ...
-## Autor  
+## ✍️ Autor  
 `Larissa Manrique` [GitHub](https://github.com/larissassk) 
  
