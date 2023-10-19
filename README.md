@@ -6,7 +6,12 @@ Nessa atividade, o objetivo é estudar como três sites de compras online permit
 ## ⚙️ Processo de pesquisa
 * 1- Escoli três sites de e-commerce, (amazon,OLX e Mercado Livre).
 * 2- Todos eles solicitaram uma tela de login ou de cadastro antes de começar a forma de pagameto, ou seja, escolhi o item logo em seguida foi solicitado o cadastro do cliente.
-
+ 
+ ## Sites de E-commerce utilizados
+ * Amazon
+ * OLX 
+ * Mercado Livre
+   
 ## Recursos adicionado no formulário
 ...
 
