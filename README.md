@@ -5,16 +5,16 @@ Nessa atividade, o objetivo é estudar como três sites de compras online permit
 
 ## ⚙️ Processo de pesquisa
 
-* O processo de compra no Mercado Livre em etapas:
-- Primeiro vc tem que se Cadastrar ou se ja tiver o logi é so etrar em sua conta.
-- Pesquise o produto que irá comprar.
-- Voce escolhe "Comprar" ou "Adicionar ao Carrinho".
-- tera campos que vc deve inserir o endereço de entrega e escolher a forma de pagamento.
-- Confere os detalhes e confirme a sua compra.
-- Conclua o pagamento.
-- Irá Receber um e-mail de confirmação e depois é só acompanhar o pedido em sua conta.
+ ➔ O processo de compra no Mercado Livre em etapas:  
+- Primeiro vc tem que se Cadastrar ou se ja tiver o logi é so etrar em sua conta.  
+ - Pesquise o produto que irá comprar.  
+ - Voce escolhe "Comprar" ou "Adicionar ao Carrinho".  
+ - tera campos que vc deve inserir o endereço de entrega e escolher a forma de pagamento.  
+ - Confere os detalhes e confirme a sua compra.  
+ - Conclua o pagamento.  
+ - Irá Receber um e-mail de confirmação e depois é só acompanhar o pedido em sua conta.  
 
-* O processo de compra no AliExpress em etapas:
+➔ O processo de compra no AliExpress em etapas:
 
 - Primeiro, você cria uma conta e coloca suas informações pessoais.
 -  Em seguida procure o que você quer comprar.
@@ -24,7 +24,7 @@ Nessa atividade, o objetivo é estudar como três sites de compras online permit
 - Paga da forma que foi escolhida.
 - Seguindo as etapas, você recebe um e-mail confirmando a sua compra e pode acompanhar o seu pedido na sua conta.
 
-* O processo de compra na Shein em etapas:
+➔ O processo de compra na Shein em etapas:
 
 - Primeiro, faz o cadastro e coloca suas informações lá na Shein.
 - Depois, você procura o que deseja comprar no site .
@@ -34,27 +34,27 @@ Nessa atividade, o objetivo é estudar como três sites de compras online permit
 - Por ultimo é so cocluir o Pagameto da forma que escolheu.
 - Você vai receber um e-mail confirmando a sua compra e pode acompanhar o pedido na sua conta."
 
- * `Similaridades`
+   ➔ `Similaridades`
 
-- Cadastro de Conta: Os três sites, o processo começa com o usuário se cadastrando e criando uma conta.
-- Pesquisa de Produtos: Os usuários podem pesquisar os produtos que desejam comprar.
-- Escolha de Produtos: Após encontrar o produto desejado, em todos os casos, os usuários têm a opção de escolher "Comprar Agora" ou "Adicionar ao Carrinho".
-- A Conferência: Antes de confirmar a compra, os usuários têm a oportunidade de revisar os detalhes da transação, incluindo o endereço de entrega e os itens selecionados.
-- Confirmação da Compra: Após revisar os detalhes, os usuários confirmam a compra.
-- Pagamento: Em todos os casos, o usuário seleciona uma das diversas formas de pagamento para concluir.
-- E-mail de Confirmação: Após a compra, os usuários recebem um e-mail de confirmação.
-- Acompanhamento do Pedido: Todos os sites permitem que os usuários acompanhem o pedido em sua própria conta.
+ Cadastro de Conta: Os três sites, o processo começa com o usuário se cadastrando e criando uma conta.  
+ Pesquisa de Produtos: Os usuários podem pesquisar os produtos que desejam comprar.  
+ Escolha de Produtos: Após encontrar o produto desejado, em todos os casos, os usuários têm a opção de escolher "Comprar Agora" ou "Adicionar ao Carrinho".  
+ A Conferência: Antes de confirmar a compra, os usuários têm a oportunidade de revisar os detalhes da transação, incluindo o endereço de entrega e os itens selecionados.  
+ Confirmação da Compra: Após revisar os detalhes, os usuários confirmam a compra.  
+ Pagamento: Em todos os casos, o usuário seleciona uma das diversas formas de pagamento para concluir.  
+ E-mail de Confirmação: Após a compra, os usuários recebem um e-mail de confirmação.  
+ Acompanhamento do Pedido: Todos os sites permitem que os usuários acompanhem o pedido em sua própria conta.  
 
-* `Divergências`
+  ➔ `Divergências`
 
-- Os Produtos: Cada site tem diferentes produtos disponíveis para venda.
-- Entregas: variam em prazos, fretes, cupom e custos entre os sites e dependem do local de entrega a forma que será aplicada.
-- O Site: O design e sua usabilidade sao diferentes, cada plataforma tem sua própria paleta de cor, ordem de etapas do preenchimento.
+ Os Produtos: Cada site tem diferentes produtos disponíveis para venda.  
+ Entregas: variam em prazos, fretes, cupom e custos entre os sites e dependem do local de entrega a forma que será aplicada.  
+ O Site: O design e sua usabilidade sao diferentes, cada plataforma tem sua própria paleta de cor, ordem de etapas do preenchimento.  
 
  ## Sites de E-commerce utilizados
-* Mercado Livre
-* AliExpress
-* Shein
+◦ Mercado Livre  
+◦ AliExpress  
+◦ Shein  
 
    
 ## Recursos adicionado no formulário
