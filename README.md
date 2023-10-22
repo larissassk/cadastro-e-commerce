@@ -1,11 +1,11 @@
 # cadastro-e-commerce
 
 # Descriçao
-Nessa atividade, o objetivo é criar um Fomulário de cadastro de E-commerce e estudar como três sites de compras online permitem que as pessoas se cadastrem para fazer compras. Observar o que eles fazem de semelhantes e diferentes. Documetar o README o que foi pedido a atividade do teams. Em seguida, usar essas descobertas para melhorar o próprio formulário de cadastro do projeto em que será criado.
+Nessa atividade, o objetivo é criar um **Fomulário de cadastro de E-commerce** e estudar como três sites de compras online permitem que as pessoas se cadastrem para fazer compras. Observar o que eles fazem de semelhantes e diferentes. Documetar o README o que foi pedido a atividade do teams. Em seguida, usar essas descobertas para melhorar o próprio formulário de cadastro do projeto em que será criado.
 
-## ⚙️ Pesquisa
-### Processo de compra: 
- ➔ O processo de compra no Mercado Livre em etapas:  
+# ⚙️ Pesquisa
+## Processo de compra: 
+ ➔ `O processo de compra no Mercado Livre em etapas: `
 - Primeiro vc tem que se Cadastrar ou se ja tiver o logi é so etrar em sua conta.  
  - Pesquise o produto que irá comprar.  
  - Voce escolhe "Comprar" ou "Adicionar ao Carrinho".  
@@ -14,7 +14,7 @@ Nessa atividade, o objetivo é criar um Fomulário de cadastro de E-commerce e e
  - Conclua o pagamento.  
  - Irá Receber um e-mail de confirmação e depois é só acompanhar o pedido em sua conta.  
 
-➔ O processo de compra no AliExpress em etapas:
+➔ ` O processo de compra no AliExpress em etapas:`
 
 - Primeiro, você cria uma conta e coloca suas informações pessoais.
 -  Em seguida procure o que você quer comprar.
@@ -24,7 +24,7 @@ Nessa atividade, o objetivo é criar um Fomulário de cadastro de E-commerce e e
 - Paga da forma que foi escolhida.
 - Seguindo as etapas, você recebe um e-mail confirmando a sua compra e pode acompanhar o seu pedido na sua conta.
 
-➔ O processo de compra na Shein em etapas:
+➔ `O processo de compra na Shein em etapas:`
 
 - Primeiro, faz o cadastro e coloca suas informações lá na Shein.
 - Depois, você procura o que deseja comprar no site .
@@ -38,23 +38,30 @@ Nessa atividade, o objetivo é criar um Fomulário de cadastro de E-commerce e e
 
    ➔ `Similaridades`
 
- ◦ Cadastro de Conta: Os três sites, o processo começa com o usuário se cadastrando e criando uma conta.  
- ◦ Pesquisa de Produtos: Os usuários podem pesquisar os produtos que desejam comprar.  
- ◦ Escolha de Produtos: Após encontrar o produto desejado, em todos os casos, os usuários têm a opção de escolher "Comprar Agora" ou "Adicionar ao Carrinho".  
- ◦ A Conferência: Antes de confirmar a compra, os usuários têm a oportunidade de revisar os detalhes da transação, incluindo o endereço de entrega e os itens selecionados.  
- ◦ Confirmação da Compra: Após revisar os detalhes, os usuários confirmam a compra.  
- ◦ Pagamento: Em todos os casos, o usuário seleciona uma das diversas formas de pagamento para concluir.  
- ◦ E-mail de Confirmação: Após a compra, os usuários recebem um e-mail de confirmação.  
- ◦ Acompanhamento do Pedido: Todos os sites permitem que os usuários acompanhem o pedido em sua própria conta.  
+  **Cadastro de Conta:** Os três sites, o processo começa com o usuário se cadastrando e criando uma conta.  
+  **Pesquisa de Produtos:** Os usuários podem pesquisar os produtos que desejam comprar.  
+  **Escolha de Produtos:** Após encontrar o produto desejado, em todos os casos, os usuários têm a opção de escolher "Comprar Agora" ou "Adicionar ao Carrinho".  
+  **A Conferência:** Antes de confirmar a compra, os usuários têm a oportunidade de revisar os detalhes da transação, incluindo o endereço de entrega e os itens selecionados.  
+  **Confirmação da Compra:** Após revisar os detalhes, os usuários confirmam a compra.  
+  **Pagamento:** Em todos os casos, o usuário seleciona uma das diversas formas de pagamento para concluir.  
+  **E-mail de Confirmação:** Após a compra, os usuários recebem um e-mail de confirmação.  
+  **Acompanhamento do Pedido:** Todos os sites permitem que os usuários acompanhem o pedido em sua própria conta.  
 
   ➔ `Divergências`
 
- ◦ Os Produtos: Cada site tem diferentes produtos disponíveis para venda.  
- ◦ Entregas: variam em prazos, fretes, cupom e custos entre os sites e dependem do local de entrega a forma que será aplicada.  
- ◦ O Site: O design e sua usabilidade sao diferentes, cada plataforma tem sua própria paleta de cor, ordem de etapas do preenchimento.  
+ **Os Produtos:** Cada site tem diferentes produtos disponíveis para venda.  
+ **Entregas:** variam em prazos, fretes, cupom e custos entre os sites e dependem do local de entrega a forma que será aplicada.  
+ **O Site:** O design e sua usabilidade sao diferentes, cada plataforma tem sua própria paleta de cor, ordem de etapas do preenchimento.  
+
+
+## Comparação de formulários
+<img src="4.3-shein.webp" alt="drawing" width="300"> 
+<img src="cadas.mer.jpg" alt="drawing" width="400"> 
+<img src="alie.cad.png" alt="drawing" width="300"> 
+
 
  ## Sites de E-commerce utilizados
- - Os tres sites E-commerce que eu usei como exemplo para a pesquisa e para cria o formulario foi esses:  
+ *Os tres sites E-commerce que eu usei como exemplo para a pesquisa e para cria o formulario foi esses:*  
 [Mercado Livre](https://www.mercadolivre.com.br/)  
 [AliExpress ](https://pt.aliexpress.com/)  
 [Shein](https://br.shein.com/)  
