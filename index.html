@@ -94,121 +94,113 @@
           </div>
         </form>
       </div>
+      <form class="row g-3">
 
-
-
-
-
-
-
-
-      <div class="col-md-7 col-lg-8">
-        <h4 class="mb-3">Billing address</h4>
-        <form class="needs-validation" novalidate>
-          <div class="row g-3">
-            <div class="col-sm-6">
-              <label for="firstName" class="form-label">Nome</label>
-              <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
-              <div class="invalid-feedback">
-                Valid first name is required.
-              </div>
-            </div>
-
-            <div class="col-sm-6">
-              <label for="lastName" class="form-label">Sobrenome</label>
-              <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
-              <div class="invalid-feedback">
-                Valid last name is required.
-              </div>
-            </div>
-
-            <div class="col-12">
-              <label for="username" class="form-label">Nome de usuario</label>
-              <div class="input-group has-validation">
-                <span class="input-group-text">@</span>
-                <input type="text" class="form-control" id="username" placeholder="Username" required>
-              <div class="invalid-feedback">
-                  Your username is required.
-                </div>
-              </div>
-            </div>
-
-            <div class="col-12">
-              <label for="email" class="form-label">Email <span class="text-muted">(Optional)</span></label>
-              <input type="email" class="form-control" id="email" placeholder="you@example.com">
-              <div class="invalid-feedback">
-                Please enter a valid email address for shipping updates.
-              </div>
-            </div>
-
-            <div class="col-12">
-              <label for="address" class="form-label">Endereço</label>
-              <input type="text" class="form-control" id="address" placeholder="1234 Main St" required>
-              <div class="invalid-feedback">
-                Please enter your shipping address.
-              </div>
-            </div>
-
-            <div class="col-12">
-              <label for="address2" class="form-label">Address 2 <span class="text-muted">(Optional)</span></label>
-              <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
-            </div>
-
-            <div class="col-md-5">
-              <label for="país" class="form-label">País</label>
-              <select class="form-select" id="país" required>
-                <option value="">Choose...</option>
-                <option>United States</option>
-              </select>
-              <div class="invalid-feedback">
-                Selecione um país válido.
-              </div>
-            </div>
-
-            <div class="col-md-4">
-              <label for="estado" class="form-label">Estado</label>
-              <select class="form-select" id="estado" required>
-                <option value="">Choose...</option>
-                <option>California</option>
-              </select>
-              <div class="invalid-feedback">
-                Selecione um estado válido.
-              </div>
-            </div>
-
-            <div class="col-md-3">
-              <label for="zip" class="form-label">Zip</label>
-              <input type="text" class="form-control" id="zip" placeholder="" required>
-              <div class="invalid-feedback">
-                Zip code required.
-              </div>
-            </div>
+        <div class="col-sm-6">
+            <label for="nome" class="form-label">Nome</label>
+            <input type="text" class="form-control" id="nome" placeholder="" value="" required>
           </div>
 
+          <div class="col-sm-6">
+            <label for="sobrenome" class="form-label">Sobrenome</label>
+            <input type="text" class="form-control" id="sobrenome" placeholder="" value="" required>
+          </div>
+
+        <div class="col-8">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="you@example.com">
+        </div>
+
+        <div class="col-4">
+            <label for="senha" class="form-label">Senha</label>
+            <input type="password" class="form-control" id="senha" placeholder="12345lk">
+            </div>
+        <div class="col-md-6">
+            <label for="inputZip" class="form-label">CEP</label>
+            <input type="text" class="form-control" id="cep">
+          </div>
+          <div class="col-md-6">
+            <label for="inputCity" class="form-label">Cidade</label>
+            <input type="text" class="form-control" id="cidade">
+          </div>
+        <div class="col-8">
+          <label for="inputAddress" class="form-label"> Endereço</label>
+          <input type="text" class="form-control" id="rua" placeholder="Joaquim Nabuco">
+        </div>
+        <div class="col-4">
+          <label for="inputAddress" class="form-label"> Numero</label>
+          <input type="text" class="form-control" id="numero" placeholder="1234">
+        </div>
+        <div class="col-7">
+          <label for="inputAddress2" class="form-label">Bairro</label>
+          <input type="text" class="form-control" id="bairro">
+        </div>
+        <div class="col-md-5">
+          <label for="inputState" class="form-label">Estado</label>
+          <input type="text" class="form-control" id="estado">
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Cadastrar</button>
+        </div>
+      </form>
+      
+      <script>
+        'use restrict'; 
+//Modo restrito
+
+//Limpar formulário
+const LimparFormulario = (endereco) =>{
+    document.getElementById('rua').value = '';
+    document.getElementById('bairro').value = '';
+    document.getElementById('cidade').value = '';
+    document.getElementById('estado').value = '';
+    document.getElementById('nome').value = '';
+    document.getElementById('sobrenome').value = '';
+}
+//Verifica se CEP é válido
+const eNumero = (numero) => /^[0-9]+$/.test(numero);
+const cepValido = (cep) => cep.length == 8 && eNumero(cep);
+//preenche campos do formulario
+const preencheFormulario = (endereco) =>{
+    document.getElementById('rua').value = endereco.logradouro;
+    document.getElementById('bairro').value = endereco.bairro;
+    document.getElementById('cidade').value = endereco.localidade;
+    document.getElementById('estado').value = endereco.uf;
+
+}
+/*função para consumo de API utilizando a função do tipo assimcrona*/
+const pesquisarcep = async() =>{
+    LimparFormulario();
+    const url = `http://viacep.com.br/ws/${cep.value}/json/`;
+    if(cepValido(cep.value)){
+        const dados = await fetch(url);
+        const addres = await dados.json();
+        if(addres.hasOwnProperty('erro')){
+            alert('cep não encontrado');
+    }else{
+        preencheFormulario(addres);
+    }
+}else{
+    alert('cep incorreto');
+    }
+}
+// Adiciona um evento DOM, no input CEP
+document.getElementById('cep').addEventListener('focusout', pesquisarcep);
+
+
+      </script>
           <hr class="my-4">
 
-          <div class="form-check">
-            <input type="checkbox" class="form-check-input" id="same-address">
-            <label class="form-check-label" for="same-address">Shipping address is the same as my billing address</label>
-          </div>
-
-          <div class="form-check">
-            <input type="checkbox" class="form-check-input" id="save-info">
-            <label class="form-check-label" for="save-info">Save this information for next time</label>
-          </div>
-
-          <hr class="my-4">
-
-          <h4 class="mb-3">Payment</h4>
+          <h4 class="mb-3">Pagamento</h4>
 
           <div class="my-3">
             <div class="form-check">
               <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked required>
-              <label class="form-check-label" for="credit">Credit card</label>
+              <label class="form-check-label" for="credit">Cartão de crédito</label>
             </div>
             <div class="form-check">
               <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required>
-              <label class="form-check-label" for="debit">Debit card</label>
+              <label class="form-check-label" for="debit">Cartão de Debito</label>
             </div>
             <div class="form-check">
               <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required>
@@ -218,27 +210,27 @@
 
           <div class="row gy-3">
             <div class="col-md-6">
-              <label for="cc-name" class="form-label">Name on card</label>
+              <label for="cc-name" class="form-label">Nome no cartão</label>
               <input type="text" class="form-control" id="cc-name" placeholder="" required>
-              <small class="text-muted">Full name as displayed on card</small>
+              <small class="text-muted">Nome completo conforme exibido no cartão</small>
               <div class="invalid-feedback">
-                Name on card is required
+                O nome no cartão é obrigatório
               </div>
             </div>
 
             <div class="col-md-6">
-              <label for="cc-number" class="form-label">Credit card number</label>
+              <label for="cc-number" class="form-label">Número do cartão de crédito</label>
               <input type="text" class="form-control" id="cc-number" placeholder="" required>
               <div class="invalid-feedback">
-                Credit card number is required
+                O número do cartão de crédito é obrigatório
               </div>
             </div>
 
             <div class="col-md-3">
-              <label for="cc-expiration" class="form-label">Expiration</label>
+              <label for="cc-expiration" class="form-label">Expiração</label>
               <input type="text" class="form-control" id="cc-expiration" placeholder="" required>
               <div class="invalid-feedback">
-                Expiration date required
+                Data de validade necessária
               </div>
             </div>
 
@@ -246,7 +238,7 @@
               <label for="cc-cvv" class="form-label">CVV</label>
               <input type="text" class="form-control" id="cc-cvv" placeholder="" required>
               <div class="invalid-feedback">
-                Security code required
+                Código de segurança necessário
               </div>
             </div>
           </div>
