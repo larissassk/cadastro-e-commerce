@@ -68,7 +68,8 @@ Nessa atividade, o objetivo é criar um **Fomulário de cadastro de E-commerce**
 
    
 ## Recursos adicionado no formulário
-...
+* Utilizei o site [Hora de Codar ](https://horadecodar.com.br/como-validar-email-com-javascript/)para adicionar a funçao de  `Validar email` com JavaScript, para verificar no formulário de cadastro se o email do visitante está correto.
+
 
 ## Fontes consultadas
 ...
