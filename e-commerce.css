@@ -2,6 +2,7 @@
   max-width: 960px;
 }
 /* Estilos para o formulário */
+
 form {
   margin-left: auto;
   margin-right: auto;
@@ -15,8 +16,14 @@ form {
   margin-bottom: 20px;
 }
 
+h1{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .btn-primary {
   margin-top: 20px;
+ 
+  
 }
 
 /* Estilizando o campo do CEP */
