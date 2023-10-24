@@ -54,7 +54,7 @@ Nessa atividade, o objetivo é criar um **Fomulário de cadastro de E-commerce**
  **O Site:** O design e sua usabilidade sao diferentes, cada plataforma tem sua própria paleta de cor, ordem de etapas do preenchimento.  
 
 
-## Comparação de formulários
+## Comparação de formulários 
 <img src="4.3-shein.webp" alt="drawing" width="300"> 
 <img src="cadas.mer.jpg" alt="drawing" width="400"> 
 <img src="alie.cad.png" alt="drawing" width="300"> 
