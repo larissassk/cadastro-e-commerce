@@ -26,10 +26,10 @@ Nessa atividade, o objetivo é criar um **Fomulário de cadastro de E-commerce**
 
 ➔ `O processo de compra na Shein em etapas:`
 
-- Primeiro, faz o cadastro e coloca suas informações lá na Shein.
-- Depois, você procura o que deseja comprar no site .
-- Assim quando achar algo que gostar, clica em 'Comprar Agora' ou 'Adicionar ao Carrinho'.
-- Aí, você coloca o endereço de entrega e decide  a forma que quer pagar tem diversas opçoes.
+- Primeiro, faz o cadastro e coloca suas informações lá.
+- Depois, você procura o que deseja comprar no site.
+- Assim quando achar, clica em 'Comprar Agora' ou 'Adicionar ao Carrinho'.
+- Aí, você coloca o endereço de entrega e decide a forma que quer pagar tem diversas opçoes.
 - Confere tudo, e confirme a compra.
 - Por ultimo é so cocluir o Pagameto da forma que escolheu.
 - Você vai receber um e-mail confirmando a sua compra e pode acompanhar o pedido na sua conta."
