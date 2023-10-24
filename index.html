@@ -69,65 +69,9 @@
 <div class="container">
   <main>
     <div class="py-5 text-center">
-
-     
-     
     </div>
-
-    <div  class="row g-5">
-      <div class="col-md-5 col-lg-4 order-md-last">
-        <h4 class="d-flex justify-content-between align-items-center mb-3">
-          <span class="text-primary">Your cart</span>
-          <span class="badge bg-primary rounded-pill">3</span>
-        </h4>
-        <ul class="list-group mb-3">1
-          <li class="list-group-item d-flex justify-content-between lh-sm">
-            <div>
-              <h6 class="my-0">Nome do Produto</h6>
-              <small class="text-muted">Descrição breve</small>
-            </div>
-            <span class="text-muted">$12</span>
-          </li>
-          <li class="list-group-item d-flex justify-content-between lh-sm">
-            <div>
-              <h6 class="my-0">Segundo produto</h6>
-              <small class="text-muted">Descrição breve</small>
-            </div>
-            <span class="text-muted">$8</span>
-          </li>
-          <li class="list-group-item d-flex justify-content-between lh-sm">
-            <div>
-              <h6 class="my-0">Terceiro item</h6>
-              <small class="text-muted">Descrição breve</small>
-            </div>
-            <span class="text-muted">$5</span>
-          </li>
-          <li class="list-group-item d-flex justify-content-between bg-light">
-            <div class="text-success">
-              <h6 class="my-0">Código promocional</h6>
-              <small>EXAMPLECODE</small>
-            </div>
-            <span class="text-success">−$5</span>
-          </li>
-          <li class="list-group-item d-flex justify-content-between">
-            <span>Total (USD)</span>
-            <strong>$20</strong>
-          </li>
-        </ul>
-
-        <form class="card p-2">
-          <div class="input-group">
-            <input type="text" class="form-control" placeholder="Promo code">
-            <button style="background-color: #5271FF ;" type="submit" class="btn btn-secondary">Resgatar</button>
-          </div>
-        </form>
-      </div>
-    </div>
-
-    <hr class="my-4">
-
     <h2>Realizar cadastro de compra.</h2>
-      <form class="row g-3">
+    <form class="row g-3">
         <div class="col-sm-5">
             <label for="nome" class="form-label">Nome</label>
             <input type="text" class="form-control" id="nome" placeholder="insira seu nome" value="" required>
@@ -137,6 +81,15 @@
             <label for="sobrenome" class="form-label">Sobrenome</label>
             <input type="text" class="form-control" id="sobrenome" placeholder="insira seu sobrenome " value="" required>
           </div>
+            <div class="col-sm-5">
+              <label for="data" class="form-label">Data de nascimento</label>
+              <input type="date" class="form-control" id="data" placeholder="insira sua data" value="" required>
+            </div>
+
+            <div class="col-sm-5">
+              <label for="cpf" class="form-label">CPF</label>
+              <input type="text" class="form-control" id="cpf" placeholder="insira seu cpf" value="" required>
+            </div>
 
         <div class="col-6">
             <label for="email" class="form-label">Email</label>
@@ -172,7 +125,7 @@
           <input type="text" class="form-control" id="estado">
         </div>
         <div class="col-12">
-          <button style="background-color: #5271FF ;" type="submit" class="btn btn-primary">Cadastrar</button>
+          <button style="background-color: #5271FF ;" type="submit" class="btn btn-primary">Cadastrar</button><br>
         </div>
       </form>
       
@@ -221,62 +174,7 @@ const pesquisarcep = async() =>{
 // Adiciona um evento DOM, no input CEP
 document.getElementById('cep').addEventListener('focusout', pesquisarcep);
 </script>
-          <hr class="my-4">
-
-          <h4 class="mb-3">Pagamento</h4>
-
-          <div class="my-3">
-            <div class="form-check">
-              <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked required>
-              <label class="form-check-label" for="credit">Cartão de crédito</label>
-            </div>
-            <div class="form-check">
-              <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required>
-              <label class="form-check-label" for="debit">Cartão de Debito</label>
-            </div>
-            <div class="form-check">
-              <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required>
-              <label class="form-check-label" for="paypal">PayPal</label>
-            </div>
-          </div>
-
-          <div class="row gy-3">
-            <div class="col-md-6">
-              <label for="cc-name" class="form-label">Nome no cartão</label>
-              <input type="text" class="form-control" id="cc-name" placeholder="" required>
-              <small class="text-muted">Nome completo conforme exibido no cartão</small>
-              <div class="invalid-feedback">
-                O nome no cartão é obrigatório
-              </div>
-            </div>
-
-            <div class="col-md-4">
-              <label for="cc-number" class="form-label">Número do cartão de crédito</label>
-              <input type="text" class="form-control" id="cc-number" placeholder="" required>
-              <div class="invalid-feedback">
-                O número do cartão de crédito é obrigatório
-              </div>
-            </div>
-
-            <div class="col-md-3">
-              <label for="cc-expiration" class="form-label">Expiração</label>
-              <input type="text" class="form-control" id="cc-expiration" placeholder="" required>
-              <div class="invalid-feedback">
-                Data de validade necessária
-              </div>
-            </div>
-
-            <div class="col-md-3">
-              <label for="cc-cvv" class="form-label">CVV</label>
-              <input type="text" class="form-control" id="cc-cvv" placeholder="" required>
-              <div class="invalid-feedback">
-                Código de segurança necessário
-              </div>
-            </div>
-          </div>
-
-          <hr class="my-4">
-
+   
           <button style="background-color: #5271FF ;" class="w-100 btn btn-primary btn-lg" type="submit">Continuar para finalizar a compra</button>
         </form>
       </div>

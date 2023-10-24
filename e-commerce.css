@@ -33,17 +33,13 @@ h1{
   margin-bottom: 20px;
 }
 
-/* Estilizando os campos de pagamento */
-.form-check {
-  margin-bottom: 15px;
-}
-
 /* Estilizando o rodapé */
 footer {
   margin-top: 50px;
   background-color: #f8f9fa;
   padding: 20px 0;
   position: absolute;
+
   bottom: 0;
   width: 100%;
   text-align: center;
