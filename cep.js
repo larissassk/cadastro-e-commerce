@@ -1,4 +1,4 @@
-'use restrict'; 
+'use restrict';
 //Modo restrito
 
 //Limpar formulário
