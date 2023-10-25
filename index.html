@@ -130,8 +130,6 @@
       </form>
       
       <script>
-
-        //------JS para CEP------
         'use restrict'; 
 //Modo restrito
 
@@ -174,14 +172,15 @@ const pesquisarcep = async() =>{
 // Adiciona um evento DOM, no input CEP
 document.getElementById('cep').addEventListener('focusout', pesquisarcep);
 </script>
+
 <script>
-  function TestaCPF(strCPF) {
+  function TestaCPF(cpf) {
       var Soma;
       var Resto;
       Soma = 0;
-    if (strCPF == "00000000000") return false;
+    if (cpf == "00000000000") return false;
   
-    for (i=1; i<=9; i++) Soma = Soma + parseInt(strCPF.substring(i-1, i)) * (11 - i);
+    for (i=1; i<=9; i++) Soma = Soma + parseInt(cpf.substring(i-1, i)) * (11 - i);
     Resto = (Soma * 10) % 11;
   
       if ((Resto == 10) || (Resto == 11))  Resto = 0;
@@ -198,6 +197,8 @@ document.getElementById('cep').addEventListener('focusout', pesquisarcep);
   var strCPF = "12345678909";
   alert(TestaCPF(strCPF));
   </script>
+
+
         </form>
       </div>
     </div>
