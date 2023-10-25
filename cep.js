@@ -54,7 +54,7 @@ document.getElementById('cep').addEventListener('focusout', pesquisarcep);
   
     // Loop over them and prevent submission
     Array.prototype.slice.call(forms)
-      .forEach(function (form) {
+      .forEach(function (form) { 
         form.addEventListener('submit', function (event) {
           if (!form.checkValidity()) {
             event.preventDefault()
