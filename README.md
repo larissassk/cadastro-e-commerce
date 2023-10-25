@@ -2,16 +2,16 @@
 
 ## Índice
 
-- [Descrição](#descrição)
-- [Pesquisa](#pesquisa)
+- [Descrição](#descri%C3%A7ao)
+- [Pesquisa](#%EF%B8%8F-pesquisa)
     - [Processo de compra](#processo-de-compra)
     - [Similaridades e Divergências](#similaridades-e-divergências)
     - [Comparação de formulários](#comparação-de-formulários)
 - [Sites de E-commerce Utilizados](#sites-de-e-commerce-utilizados)
-- [Recursos Adicionados no Formulário](#recursos-adicionados-no-formulário)
+- [Recursos Adicionados no Formulário](#recursos-adicionado-no-formul%C3%A1rio)
 - [Fontes Consultadas](#fontes-consultadas)
 - [Autor](#autor)
-- [Contribuidores](#contribuidores)
+- [Contribuidores](#autor)
 
 
 
