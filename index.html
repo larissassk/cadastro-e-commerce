@@ -169,8 +169,14 @@
 </body>
 </html>
 
-     <script>
-      'use restrict';
+      <script>
+
+        'use strict'; 
+
+
+        //------JS para CEP------
+        'use strict';
+
 //Modo restrito
 
 //Limpar formulário
@@ -181,6 +187,7 @@ const LimparFormulario = (endereco) =>{
     document.getElementById('estado').value = '';
     document.getElementById('nome').value = '';
     document.getElementById('sobrenome').value = '';
+    
 }
 //Verifica se CEP é válido
 const eNumero = (numero) => /^[0-9]+$/.test(numero);
@@ -211,35 +218,7 @@ const pesquisarcep = async() =>{
 }
 // Adiciona um evento DOM, no input CEP
 document.getElementById('cep').addEventListener('focusout', pesquisarcep);
-
-
-
-
-
-// codigo do bootstrap
-// Example starter JavaScript for disabling form submissions if there are invalid fields
-(function () {
-    'use strict'
-  
-    // Fetch all the forms we want to apply custom Bootstrap validation styles to
-    var forms = document.querySelectorAll('.needs-validation')
-  
-    // Loop over them and prevent submission
-    Array.prototype.slice.call(forms)
-      .forEach(function (form) { 
-        form.addEventListener('submit', function (event) {
-          if (!form.checkValidity()) {
-            event.preventDefault()
-            event.stopPropagation()
-          }
-  
-          form.classList.add('was-validated')
-        }, false)
-      })
-  })()
-  
-     </script>
-        
+</script>
 <script>
 // Adiciona VALIDAÇAO DE CPF
   function validarCPF(cpf) {
@@ -399,7 +378,7 @@ document.getElementById('cep').addEventListener('focusout', pesquisarcep);
 
 </script>
 
-        </form> 
+        </form>
       </div>
     </div>
   </main>
