@@ -11,3 +11,4 @@ if (validarEmail(email)) {
   console.log("O e-mail é inválido.");
 }
 
+ 
