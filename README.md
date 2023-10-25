@@ -2,6 +2,7 @@
 
 # Descriçao
 Nessa atividade, o objetivo é criar um **Fomulário de cadastro de E-commerce** e estudar como três sites de compras online permitem que as pessoas se cadastrem para fazer compras. Observar o que eles fazem de semelhantes e diferentes. Documetar o README o que foi pedido a atividade do teams. Em seguida, usar essas descobertas para melhorar o próprio formulário de cadastro do projeto em que será criado.
+<img src="" alt="drawing" width="300"> 
 
 # ⚙️ Pesquisa
 ## Processo de compra: 
@@ -55,9 +56,9 @@ Nessa atividade, o objetivo é criar um **Fomulário de cadastro de E-commerce**
 
 
 ## Comparação de formulários 
+ -Fotos de tela dos 3 sites usados
 <img src="4.3-shein.webp" alt="drawing" width="300"> 
-<img src="cadas.mer.jpg" alt="drawing" width="400"> 
-<img src="alie.cad.png" alt="drawing" width="300"> 
+
 
 
  ## Sites de E-commerce utilizados
@@ -68,13 +69,19 @@ Nessa atividade, o objetivo é criar um **Fomulário de cadastro de E-commerce**
 
    
 ## Recursos adicionado no formulário
-* Utilizei o site [Hora de Codar ](https://horadecodar.com.br/como-validar-email-com-javascript/)para adicionar a funçao de  `Validar email` com JavaScript, para verificar no formulário de cadastro se o email do visitante está correto.
-
+* Utilizei o site [Hora de Codar ](https://horadecodar.com.br/como-validar-email-com-javascript/)para adicionar a funçao de  *Validar email* com JavaScript, para verificar no formulário de cadastro se o email do visitante está correto.  
+* Adicionei a *validaçao do CPF*, com a ajuda de sites fiz varias  pesquisas mas o que utilizei foi o [devarthu](https://devarthur.com/blog/funcao-javascript-para-validar-cpf), usei como exemplo e modifiquei bastante coisa ele.  
+* Criei uma *logo* para fixar no header usando o site [Cava](https://www.canva.com/) 
+* Atribui um `header` do bootstrap pois ja é responsivo.  
 
 ## Fontes consultadas
-...
+[Exame Invest](https://exame.com/invest/guia/o-que-e-e-commerce-red04/)  
+[bootstrap](https://getbootstrap.com/)  
+[Canva](https://www.canva.com/)  
+[devarthu](https://devarthur.com/blog/funcao-javascript-para-validar-cpf)  
+[Hora de Codar ](https://horadecodar.com.br/como-validar-email-com-javascript/)  
 
-...
 ## Autor  
-Larissa Manrique [GitHub](https://github.com/larissassk)   
+Larissa Manrique [GitHub](https://github.com/larissassk)  
+
 ### Pessoas que contribuíram para a construção do projeto
