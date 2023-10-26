@@ -1,6 +1,22 @@
 # cadastro-e-commerce
 
+## Índice
+
+- [**Descrição**](#descri%C3%A7ao)
+- [**Pesquisa**](#%EF%B8%8F-pesquisa)
+    - [**Processo de compra**](#processo-de-compra)
+    - [**Similaridades e Divergências**](#similaridades-e-divergências)
+    - [**Comparação de formulários**](#comparação-de-formulários)
+- [**Sites de E-commerce Utilizados**](#sites-de-e-commerce-utilizados)
+- [**Recursos Adicionados no Formulário**](#recursos-adicionado-no-formul%C3%A1rio)
+- [**Fontes Consultadas**](#fontes-consultadas)
+- [**Autor**](#autor)
+- [**Contribuidores**](#autor)
+
+
+
 # Descriçao
+
 Nessa atividade, o objetivo é criar um **Fomulário de cadastro de E-commerce** e estudar como três sites de compras online permitem que as pessoas se cadastrem para fazer compras. Observar o que eles fazem de semelhantes e diferentes. Documetar o README o que foi pedido a atividade do teams. Em seguida, usar essas descobertas para melhorar o próprio formulário de cadastro do projeto em que será criado.
 <img src="" alt="drawing" width="300"> 
 
@@ -69,10 +85,11 @@ Nessa atividade, o objetivo é criar um **Fomulário de cadastro de E-commerce**
 
    
 ## Recursos adicionado no formulário
-* Utilizei o site [Hora de Codar ](https://horadecodar.com.br/como-validar-email-com-javascript/)para adicionar a funçao de  *Validar email* com JavaScript, para verificar no formulário de cadastro se o email do visitante está correto.  
-* Adicionei a *validaçao do CPF*, com a ajuda de sites fiz varias  pesquisas mas o que utilizei foi o [devarthu](https://devarthur.com/blog/funcao-javascript-para-validar-cpf), usei como exemplo e modifiquei bastante coisa ele.  
-* Criei uma *logo* para fixar no header usando o site [Cava](https://www.canva.com/) 
+* Utilizei o site [Hora de Codar ](https://horadecodar.com.br/como-validar-email-com-javascript/)para adicionar a funçao de  *Validar email* com JavaScript para verificar no formulário de cadastro se o email do visitante está correto  e utilizei para os outros campos.
+* Adicionei a *validaçao do CPF*, com a ajuda de sites fiz varias pesquisas mas site que utilizei foi o [devarthu](https://devarthur.com/blog/funcao-javascript-para-validar-cpf), usei como exemplo e modifiquei bastante coisa ele.  
+* Criei uma *logo* para fixar no header usando o site [Canva](https://www.canva.com/) 
 * Atribui um `header` do bootstrap pois ja é responsivo.  
+* adicionei uma mensagem de cadastro concluído com sucesso quando todos campos sao preencidos corretamente.
 
 ## Fontes consultadas
 [Exame Invest](https://exame.com/invest/guia/o-que-e-e-commerce-red04/)  
@@ -81,7 +98,11 @@ Nessa atividade, o objetivo é criar um **Fomulário de cadastro de E-commerce**
 [devarthu](https://devarthur.com/blog/funcao-javascript-para-validar-cpf)  
 [Hora de Codar ](https://horadecodar.com.br/como-validar-email-com-javascript/)  
 
-## Autor  
-Larissa Manrique [GitHub](https://github.com/larissassk)  
+## Autor
+- Larissa Manrique
+    - GitHub: [larissassk](https://github.com/larissassk)
+    - LinkedIn: [Larissa Manrique](https://www.linkedin.com/in/larissa-manrique/)
+    - **Contribuidores:**
+        - Amanda: [amandvitoria](https://github.com/amandvitoria)
+        - Lara: [laraassuncao18](https://github.com/laraassuncao18)
 
-### Pessoas que contribuíram para a construção do projeto
