@@ -16,30 +16,30 @@
 
 
 # Descriçao
-
-Nessa atividade, o objetivo é criar um **Fomulário de cadastro de E-commerce** e estudar como três sites de compras online permitem que as pessoas se cadastrem para fazer compras. Observar o que eles fazem de semelhantes e diferentes. Documetar o README o que foi pedido a atividade do teams. Em seguida, usar essas descobertas para melhorar o próprio formulário de cadastro do projeto em que será criado.
-<img src="" alt="drawing" width="300"> 
+- O projeto consiste na realização de um **Formulário de Cadastro de E-commerce** que tenha validação de CEP e campos de informações pessoais, atraves de  pesquisas, será usado três sites de e-commerce de exemplo para saber como é feito o cadastro do usuário para realizar uma compra. 
+- Sendo assim o que foi achado nas pesquisas serão aplicados ao formulário de cadastro do projeto. Que tambem será criado um README que descreve o processo de pesquisa, sites de e-commerce utilizados, similaridades e divergências entre os formulários, as fontes consultadas, recursos implementados, contribuidores do projeto e por ultimo sendo um cadastro responsivo.  
+<img src="" alt="foto do proj" width="300"> 
 
 # ⚙️ Pesquisa
 ## Processo de compra: 
- ➔ `O processo de compra no Mercado Livre em etapas: `
-- Primeiro vc tem que se Cadastrar ou se ja tiver o logi é so etrar em sua conta.  
- - Pesquise o produto que irá comprar.  
- - Voce escolhe "Comprar" ou "Adicionar ao Carrinho".  
- - tera campos que vc deve inserir o endereço de entrega e escolher a forma de pagamento.  
- - Confere os detalhes e confirme a sua compra.  
- - Conclua o pagamento.  
- - Irá Receber um e-mail de confirmação e depois é só acompanhar o pedido em sua conta.  
+ `➔ O processo de compra no Mercado Livre em etapas:`
+- Primeiro, você tem que se cadastrar ou, se já tiver, fazer login em sua conta.
+- Pesquise o produto que irá comprar.
+- Escolha "Comprar" ou "Adicionar ao Carrinho".
+- Preencha campos para inserir o endereço de entrega e escolher a forma de pagamento.
+- Revise os detalhes e confirme a sua compra.
+- Conclua o pagamento.
 
 ➔ ` O processo de compra no AliExpress em etapas:`
 
-- Primeiro, você cria uma conta e coloca suas informações pessoais.
--  Em seguida procure o que você quer comprar.
-- Quando encontrar o que deseja, clica em 'Comprar Agora' ou 'Adicionar ao Carrinho'.
-- É só digitar o endereço de entrega e escolher como vai pagar.
-- Confere tudo certinho e, se estiver tudo certo, confirma a compra.
-- Paga da forma que foi escolhida.
-- Seguindo as etapas, você recebe um e-mail confirmando a sua compra e pode acompanhar o seu pedido na sua conta.
+- Primeiro, você cria uma conta e insere suas informações pessoais.
+- Em seguida, procure o que você quer comprar.
+- Clique em 'Comprar Agora' ou 'Adicionar ao Carrinho'.
+- Insira o endereço de entrega e escolha o método de pagamento.
+- Verifique tudo e, se estiver correto, confirme a compra.
+- Realize o pagamento da forma escolhida.
+- Após seguir as etapas, você receberá um e-mail confirmando a sua compra e poderá acompanhar o seu pedido em sua conta.
+
 
 ➔ `O processo de compra na Shein em etapas:`
 
@@ -53,29 +53,38 @@ Nessa atividade, o objetivo é criar um **Fomulário de cadastro de E-commerce**
 
 ### Similaridades e Divergências:
 
-   ➔ `Similaridades`
+ ` ➔ Similaridades`
 
-  **Cadastro de Conta:** Os três sites, o processo começa com o usuário se cadastrando e criando uma conta.  
-  **Pesquisa de Produtos:** Os usuários podem pesquisar os produtos que desejam comprar.  
-  **Escolha de Produtos:** Após encontrar o produto desejado, em todos os casos, os usuários têm a opção de escolher "Comprar Agora" ou "Adicionar ao Carrinho".  
-  **A Conferência:** Antes de confirmar a compra, os usuários têm a oportunidade de revisar os detalhes da transação, incluindo o endereço de entrega e os itens selecionados.  
-  **Confirmação da Compra:** Após revisar os detalhes, os usuários confirmam a compra.  
-  **Pagamento:** Em todos os casos, o usuário seleciona uma das diversas formas de pagamento para concluir.  
-  **E-mail de Confirmação:** Após a compra, os usuários recebem um e-mail de confirmação.  
-  **Acompanhamento do Pedido:** Todos os sites permitem que os usuários acompanhem o pedido em sua própria conta.  
+**Informações básicas:** Os três sites solicitam informações básicas, como nome, endereço de e-mail e senha.
 
-  ➔ `Divergências`
+**Cadastro:** Os três sites começam com o processo do usuário se cadastrando e criando uma conta.
 
- **Os Produtos:** Cada site tem diferentes produtos disponíveis para venda.  
- **Entregas:** variam em prazos, fretes, cupom e custos entre os sites e dependem do local de entrega a forma que será aplicada.  
- **O Site:** O design e sua usabilidade sao diferentes, cada plataforma tem sua própria paleta de cor, ordem de etapas do preenchimento.  
+**Adicionar compra:** Após encontrar o produto desejado, em todos os casos, os usuários têm a opção de escolher "Comprar Agora" ou "Adicionar ao Carrinho".
 
+**Confirmação da Compra:** Após revisar os detalhes, os usuários confirmam a compra e revisam os dados de entrega.
+
+**Formas de pagamento:** Em todos os casos, o usuário seleciona uma das várias formas de pagamento para concluir a transação.
+
+**E-mail de Confirmação:** Após a compra, os usuários recebem um e-mail de confirmação.
+
+**Acompanhamento do Pedido:** Todos os sites permitem que os usuários acompanhem o pedido em sua própria conta.
+
+**(UX) e (UI) presentes:** O design e a usabilidade de cada plataforma são intuitivos e orientam os usuários por etapas do processo de compra. No caso do Mercado Livre, a interface é mais simplificada e direta.
+
+`➔ Divergências`
+
+**Os Produtos:** Cada site tem diferentes produtos disponíveis para venda.
+
+**Entregas:** Os prazos de entrega, os custos de frete e os cupons variam entre os sites e dependem do local de entrega.
+
+**Interface do Usuário:** As telas de cadastro variam em design e usabilidade. Os três e-commerces usados como exemplo têm elementos visuais atraentes, mas diferentes, como cores, fontes e ordem de preenchimento.
 
 ## Comparação de formulários 
- -Fotos de tela dos 3 sites usados
-<img src="4.3-shein.webp" alt="drawing" width="300"> 
 
-
+- Capturas de tela dos 3 sites utilizados:  
+ <img src="" alt="tela de cadastro do M.L" width="300">  
+ <img src="" alt="tela de cadastro da shein" width="300">  
+ <img src="" alt="tela de cadastro da Aliexpress" width="300">  
 
  ## Sites de E-commerce utilizados
  *Os tres sites E-commerce que eu usei como exemplo para a pesquisa e para cria o formulario foi esses:*  
@@ -91,7 +100,7 @@ Nessa atividade, o objetivo é criar um **Fomulário de cadastro de E-commerce**
 * Atribui um `header` do bootstrap pois ja é responsivo.  
 * adicionei uma mensagem de cadastro concluído com sucesso quando todos campos sao preencidos corretamente.
 
-## Fontes consultadas
+## Fontes consultadas ✍️
 [Exame Invest](https://exame.com/invest/guia/o-que-e-e-commerce-red04/)  
 [bootstrap](https://getbootstrap.com/)  
 [Canva](https://www.canva.com/)  
@@ -105,4 +114,11 @@ Nessa atividade, o objetivo é criar um **Fomulário de cadastro de E-commerce**
     - **Contribuidores:**
         - Amanda: [amandvitoria](https://github.com/amandvitoria)
         - Lara: [laraassuncao18](https://github.com/laraassuncao18)
+
+
+
+
+
+
+
 
