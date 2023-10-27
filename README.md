@@ -108,12 +108,12 @@
 [Hora de Codar ](https://horadecodar.com.br/como-validar-email-com-javascript/)  
 
 ## Autor
-- Larissa Manrique
-    - GitHub: [larissassk](https://github.com/larissassk)
-    - LinkedIn: [Larissa Manrique](https://www.linkedin.com/in/larissa-manrique/)
-    - **Contribuidores:**
-        - Amanda: [amandvitoria](https://github.com/amandvitoria)
-        - Lara: [laraassuncao18](https://github.com/laraassuncao18)
+- Larissa Manrique  
+    -  [GitHub](https://github.com/larissassk)  
+    -  [LinkedIn](https://www.linkedin.com/in/larissa-manrique/)  
+    - **Contribuidores:**  
+        - Amanda: [GitHub](https://github.com/amandvitoria)  
+        - Lara: [GitHub](https://github.com/laraassuncao18)  
 
 
 
