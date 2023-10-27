@@ -70,13 +70,6 @@ Nessa atividade, o objetivo é criar um **Fomulário de cadastro de E-commerce**
  **Entregas:** variam em prazos, fretes, cupom e custos entre os sites e dependem do local de entrega a forma que será aplicada.  
  **O Site:** O design e sua usabilidade sao diferentes, cada plataforma tem sua própria paleta de cor, ordem de etapas do preenchimento.  
 
-
-## Comparação de formulários 
- -Fotos de tela dos 3 sites usados
-<img src="4.3-shein.webp" alt="drawing" width="300"> 
-
-
-
  ## Sites de E-commerce utilizados
  *Os tres sites E-commerce que eu usei como exemplo para a pesquisa e para cria o formulario foi esses:*  
 [Mercado Livre](https://www.mercadolivre.com.br/)  
