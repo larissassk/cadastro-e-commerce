@@ -18,7 +18,9 @@
 # Descriçao
 - O projeto consiste na realização de um **Formulário de Cadastro de E-commerce** que tenha validação de CEP e campos de informações pessoais, atraves de  pesquisas, será usado três sites de e-commerce de exemplo para saber como é feito o cadastro do usuário para realizar uma compra. 
 - Sendo assim o que foi achado nas pesquisas serão aplicados ao formulário de cadastro do projeto. Que tambem será criado um README que descreve o processo de pesquisa, sites de e-commerce utilizados, similaridades e divergências entre os formulários, as fontes consultadas, recursos implementados, contribuidores do projeto e por ultimo sendo um cadastro responsivo.  
-<img src="" alt="foto do proj" width="300"> 
+
+<img src="img/cadastrocel.PNG" alt="foto do proj" height="350" width="200">  <img src="img/cadastropc.PNG" alt="foto do proj" height="350" width="400"> 
+ 
 
 # ⚙️ Pesquisa
 ## Processo de compra: 
