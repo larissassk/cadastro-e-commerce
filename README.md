@@ -18,7 +18,7 @@
 # Descriçao
 
 Nessa atividade, o objetivo é criar um **Fomulário de cadastro de E-commerce** e estudar como três sites de compras online permitem que as pessoas se cadastrem para fazer compras. Observar o que eles fazem de semelhantes e diferentes. Documetar o README o que foi pedido a atividade do teams. Em seguida, usar essas descobertas para melhorar o próprio formulário de cadastro do projeto em que será criado.  
-<img src="img\print-cadastro.png" alt="drawing" width="500"><br><img src="img\print-cel.png" alt="drawing" width="200"> 
+<img src="img\print-cel.png" alt="drawing" width="150"> 
 
 # ⚙️ Pesquisa
 ## Processo de compra: 

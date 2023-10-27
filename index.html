@@ -10,12 +10,10 @@
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/checkout/">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    
     <link rel="stylesheet" href="cep.js">
 
     <!-- Bootstrap core CSS -->
 <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
-
     <style>
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -32,13 +30,11 @@
       }
     </style>
 
-    
     <!-- Custom styles for this template -->
     <link href="form-validation.css" rel="stylesheet">
   </head>
 
   <body class="bg-light">
-
    <style>
      .form-control-dark {
       border-color: var(--bs-gray);
@@ -66,18 +62,23 @@
       </header>
 
   
-<div class="container">
-  <main>
-    <div class="py-5 text-center">
-    </div>
-    <h2>Realizar cadastro de compra.</h2>
-    <form class="row g-3">
+      <div class="container">
+        <main>
+          <div class="py-5 text-center">
+          </div>
+          <h2>Realizar cadastro de compra.</h2>
+      <form class="row g-3">
         <div class="col-sm-5">
             <label for="nome" class="form-label">Nome</label>
+
             <input type="text" class="form-control" id="nome" placeholder="Insira seu nome" value="" required>
           </div>
 
-          <div class="col-sm-5">
+            <input type="text" class="form-control" id="nome" placeholder="insira seu nome" value="" required>
+        </div>
+
+
+        <div class="col-sm-5">
             <label for="sobrenome" class="form-label">Sobrenome</label>
             <input type="text" class="form-control" id="sobrenome" placeholder="Insira seu sobrenome " value="" required>
           </div>
@@ -86,71 +87,78 @@
               <input type="date" class="form-control" id="data" placeholder="Insira sua data" value="" required>
             </div>
 
-            <div class="col-sm-5">
-            <label for="cpf">CPF:</label>
-            <input type="text" id="cpf" name="cpf">
+            <input type="text" class="form-control" id="sobrenome" placeholder="insira seu sobrenome " value="" required>
+        </div>
+        <div class="col-sm-5">
+            <label for="data" class="form-label">Data de nascimento</label>
+            <input type="date" class="form-control" id="data" placeholder="insira sua data" value="" required>
+        </div>
+
+
+        <div class="col-sm-5">
+            <label for="cpf" class="form-label">CPF</label>
+            <input type="text" class="form-control" id="cpf" name="cpf">
             <p id="cpf-error" class="error-message"></p>
-            </div>
+        </div>
+          
+        <script>
+          function validarCPF(cpf) {
+            cpf = cpf.replace(/\D/g, ''); // Remove caracteres não numéricos
 
-            <script>
-              function validarCPF(cpf) {
-    cpf = cpf.replace(/\D/g, ''); // Remove caracteres não numéricos
+        if (cpf.length !== 11 || /^(.)\1{10}$/.test(cpf)) {
+            return false; // CPF inválido
+        }
 
-    if (cpf.length !== 11 || /^(.)\1{10}$/.test(cpf)) {
-        return false; // CPF inválido
+        let soma = 0;
+        for (let i = 0; i < 9; i++) {
+            soma += parseInt(cpf.charAt(i)) * (10 - i);
+        }
+        let digitoVerificador1 = soma % 11 < 2 ? 0 : 11 - (soma % 11);
+
+        if (digitoVerificador1 !== parseInt(cpf.charAt(9))) {
+            return false; // CPF inválido
+        }
+
+        soma = 0;
+        for (let i = 0; i < 10; i++) {
+            soma += parseInt(cpf.charAt(i)) * (11 - i);
+        }
+        let digitoVerificador2 = soma % 11 < 2 ? 0 : 11 - (soma % 11);
+
+        if (digitoVerificador2 !== parseInt(cpf.charAt(10))) {
+            return false; // CPF inválido
+        }
+
+        return true; // CPF válido
     }
 
-    let soma = 0;
-    for (let i = 0; i < 9; i++) {
-        soma += parseInt(cpf.charAt(i)) * (10 - i);
-    }
-    let digitoVerificador1 = soma % 11 < 2 ? 0 : 11 - (soma % 11);
+      const cpfInput = document.getElementById("cpf");
+      const cpfError = document.getElementById("cpf-error");
 
-    if (digitoVerificador1 !== parseInt(cpf.charAt(9))) {
-        return false; // CPF inválido
-    }
+      cpfInput.addEventListener("input", function () {
+          if (validarCPF(cpfInput.value)) {
+              cpfError.textContent = ""; // Limpa mensagem de erro
+          } else {
+              cpfError.textContent = "CPF inválido";
+          }
+      });
+    </script>            
+        <style>
+           /* Estilize todos os campos de entrada */
+            input {
+                width: 100%; /* Defina a largura para 100% para igualar o tamanho */
+                padding: 10px;
+                margin-bottom: 10px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                font-size: 16px;
+                  }
 
-    soma = 0;
-    for (let i = 0; i < 10; i++) {
-        soma += parseInt(cpf.charAt(i)) * (11 - i);
-    }
-    let digitoVerificador2 = soma % 11 < 2 ? 0 : 11 - (soma % 11);
-
-    if (digitoVerificador2 !== parseInt(cpf.charAt(10))) {
-        return false; // CPF inválido
-    }
-
-    return true; // CPF válido
-}
-
-const cpfInput = document.getElementById("cpf");
-const cpfError = document.getElementById("cpf-error");
-
-cpfInput.addEventListener("input", function () {
-    if (validarCPF(cpfInput.value)) {
-        cpfError.textContent = ""; // Limpa mensagem de erro
-    } else {
-        cpfError.textContent = "CPF inválido";
-    }
-});
-
-            </script>            
-            <style>
-                  /* Estilize todos os campos de entrada */
-                      input {
-                          width: 100%; /* Defina a largura para 100% para igualar o tamanho */
-                          padding: 10px;
-                          margin-bottom: 10px;
-                          border: 1px solid #ccc;
-                          border-radius: 4px;
-                          font-size: 16px;
-                      }
-
-                      /* Estilize a mensagem de erro */
-                      .error-message {
-                          color: red;
-                          font-size: 14px;
-                      }
+            /* Estilize a mensagem de erro */
+            .error-message {
+                color: red;
+                font-size: 14px;
+                  }
 
             </style>
 
@@ -190,68 +198,64 @@ cpfInput.addEventListener("input", function () {
         <div class="col-12">
           <button style="background-color: #5271FF ;" type="submit" class="btn btn-primary">Cadastrar</button><br>
         </div>
-      </form>
-      
-      <script>
 
+    <script>  
         //------JS para CEP------
         'use restrict'; 
-//Modo restrito
+        //Modo restrito
 
-//Limpar formulário
-const LimparFormulario = (endereco) =>{
-    document.getElementById('rua').value = '';
-    document.getElementById('bairro').value = '';
-    document.getElementById('cidade').value = '';
-    document.getElementById('estado').value = '';
-    document.getElementById('nome').value = '';
-    document.getElementById('sobrenome').value = '';
-}
-//Verifica se CEP é válido
-const eNumero = (numero) => /^[0-9]+$/.test(numero);
-const cepValido = (cep) => cep.length == 8 && eNumero(cep);
-//preenche campos do formulario
-const preencheFormulario = (endereco) =>{
-    document.getElementById('rua').value = endereco.logradouro;
-    document.getElementById('bairro').value = endereco.bairro;
-    document.getElementById('cidade').value = endereco.localidade;
-    document.getElementById('estado').value = endereco.uf;
+        //Limpar formulário
+        const LimparFormulario = (endereco) =>{
+            document.getElementById('rua').value = '';
+            document.getElementById('bairro').value = '';
+            document.getElementById('cidade').value = '';
+            document.getElementById('estado').value = '';
+            document.getElementById('nome').value = '';
+            document.getElementById('sobrenome').value = '';
+        }
+        //Verifica se CEP é válido
+        const eNumero = (numero) => /^[0-9]+$/.test(numero);
+        const cepValido = (cep) => cep.length == 8 && eNumero(cep);
+        //preenche campos do formulario
+        const preencheFormulario = (endereco) =>{
+            document.getElementById('rua').value = endereco.logradouro;
+            document.getElementById('bairro').value = endereco.bairro;
+            document.getElementById('cidade').value = endereco.localidade;
+            document.getElementById('estado').value = endereco.uf;
 
-}
-/*função para consumo de API utilizando a função do tipo assimcrona*/
-const pesquisarcep = async() =>{
-    LimparFormulario();
-    const url = `http://viacep.com.br/ws/${cep.value}/json/`;
-    if(cepValido(cep.value)){
-        const dados = await fetch(url);
-        const addres = await dados.json();
-        if(addres.hasOwnProperty('erro')){
-            alert('cep não encontrado');
-    }else{
-        preencheFormulario(addres);
-    }
-}else{
-    alert('cep incorreto');
-    }
-}
-// Adiciona um evento DOM, no input CEP
-document.getElementById('cep').addEventListener('focusout', pesquisarcep);
+        }
+        /*função para consumo de API utilizando a função do tipo assimcrona*/
+        const pesquisarcep = async() =>{
+            LimparFormulario();
+            const url = `https://viacep.com.br/ws/${cep.value}/json/`;
+            if(cepValido(cep.value)){
+                const dados = await fetch(url);
+                const addres = await dados.json();
+                if(addres.hasOwnProperty('erro')){
+                    alert('cep não encontrado');
+            }else{
+                preencheFormulario(addres);
+            }
+        }else{
+            alert('cep incorreto');
+            }
+        }
+        // Adiciona um evento DOM, no input CEP
+        document.getElementById('cep').addEventListener('focusout', pesquisarcep);
 
-</script>
-
-        </form>
-      </div>
+            </script>
+          </form>
+        </script>
+      </form>
     </div>
-  </main>
+ </main>
+
   <footer class="my-5 pt-5 text-muted text-center text-small">
       <li class="list-inline-item"><a href="index.html">Voltar</a></li>
-    </ul>
   </footer>
 </div>
-
-
     <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
-
       <script src="form-validation.js"></script>
-  </body>
+    </body>
+  
 </html>
